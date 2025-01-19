@@ -3,7 +3,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
-const basenameProd = '/react-pwa-starter/';
+const basenameProd = '/react-pwa-pos/';
 
 export default defineConfig(({ command }) => {
     const isProd = command === 'build';
@@ -18,8 +18,8 @@ export default defineConfig(({ command }) => {
                     globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
                 },
                 manifest: {
-                    name: 'react-pwa-starter',
-                    short_name: 'reactpwa',
+                    name: 'react-pwa-pos',
+                    short_name: 'PWAPOS',
                     theme_color: '#ffffff',
                     background_color: '#ffffff',
                     display: 'standalone',

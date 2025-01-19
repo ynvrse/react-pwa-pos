@@ -5,7 +5,7 @@ React + VitePWA + TypeScript template for building apps with shadcn/ui.
 ## Getting Started
 
 ```
-git clone https://github.com/ynvrse/react-pwa-starter.git new-project
+git clone https://github.com/ynvrse/react-pwa-pos.git new-project
 cd new-project
 npm install
 npm run dev
