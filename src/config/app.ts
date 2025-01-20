@@ -11,10 +11,10 @@ interface AppConfig {
 }
 
 export const appConfig: AppConfig = {
-    name: 'React PWA',
+    name: 'Kaseer',
     github: {
-        title: 'React Shadcn Starter',
-        url: 'https://github.com/ynvrse/react-pwa-starter',
+        title: 'Kaseer',
+        url: 'https://github.com/ynvrse/react-pwa-pos',
     },
     author: {
         name: 'ynvrse',
